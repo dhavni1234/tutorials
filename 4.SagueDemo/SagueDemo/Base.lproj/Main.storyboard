@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Crq-IW-Efc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20d-7x-qdu">
+                                <rect key="frame" x="131" y="269" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSecond:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="13S-1e-ZqH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.52381234210000005" blue="0.25975217350000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" prompt="This is Main" id="0nV-Xl-3ZK">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="ezw-yE-6iy"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="5Am-rB-V8Z">
+                            <connections>
+                                <segue destination="eoL-AS-d08" kind="push" id="fex-Oo-jS8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="GEl-cV-bcp" kind="push" identifier="Third" id="lCC-1h-BU8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="74"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U7W-vg-E8n">
+            <objects>
+                <viewController id="GEl-cV-bcp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mMb-wO-pC9"/>
+                        <viewControllerLayoutGuide type="bottom" id="n1a-Qd-R0t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KV2-Mg-u0D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.1890257393" green="0.59232404169999997" blue="0.79701309970000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YHX-ou-K55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXH-AX-QnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795" y="726"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="n7D-U5-ApT">
+            <objects>
+                <viewController id="eoL-AS-d08" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Ea-hX-7eO"/>
+                        <viewControllerLayoutGuide type="bottom" id="TVS-CV-ct0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lev-sB-rLm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM3-wh-vJc">
+                                <rect key="frame" x="124" y="158" width="73" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Click Me !!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClick:" destination="eoL-AS-d08" eventType="touchUpInside" id="1Zk-wd-Wr8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.88312815659999999" green="0.83558329419999999" blue="0.39034791489999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vNm-Ng-g8n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Seo-jq-L5O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="74"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lyt-fH-L8U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Crq-IW-Efc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IQ0-Wo-Nwq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="UWG-eA-DAn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6qC-aq-HtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182" y="74"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
