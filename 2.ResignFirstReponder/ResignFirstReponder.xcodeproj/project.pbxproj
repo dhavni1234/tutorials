@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BCB43F1BE3AB1500D492CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB43E1BE3AB1500D492CD /* main.m */; };
+		40BCB4421BE3AB1500D492CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB4411BE3AB1500D492CD /* AppDelegate.m */; };
+		40BCB4451BE3AB1500D492CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB4441BE3AB1500D492CD /* ViewController.m */; };
+		40BCB4481BE3AB1500D492CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BCB4461BE3AB1500D492CD /* Main.storyboard */; };
+		40BCB44A1BE3AB1500D492CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BCB4491BE3AB1500D492CD /* Images.xcassets */; };
+		40BCB44D1BE3AB1500D492CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40BCB44B1BE3AB1500D492CD /* LaunchScreen.xib */; };
+		40BCB4591BE3AB1600D492CD /* ResignFirstReponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB4581BE3AB1600D492CD /* ResignFirstReponderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BCB4531BE3AB1600D492CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BCB4311BE3AB1500D492CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BCB4381BE3AB1500D492CD;
+			remoteInfo = ResignFirstReponder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BCB4391BE3AB1500D492CD /* ResignFirstReponder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResignFirstReponder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BCB43D1BE3AB1500D492CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BCB43E1BE3AB1500D492CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40BCB4401BE3AB1500D492CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40BCB4411BE3AB1500D492CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40BCB4431BE3AB1500D492CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40BCB4441BE3AB1500D492CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40BCB4471BE3AB1500D492CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BCB4491BE3AB1500D492CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40BCB44C1BE3AB1500D492CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40BCB4521BE3AB1600D492CD /* ResignFirstReponderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResignFirstReponderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BCB4571BE3AB1600D492CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BCB4581BE3AB1600D492CD /* ResignFirstReponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResignFirstReponderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BCB4361BE3AB1500D492CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BCB44F1BE3AB1600D492CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BCB4301BE3AB1500D492CD = {
+			isa = PBXGroup;
+			children = (
+				40BCB43B1BE3AB1500D492CD /* ResignFirstReponder */,
+				40BCB4551BE3AB1600D492CD /* ResignFirstReponderTests */,
+				40BCB43A1BE3AB1500D492CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BCB43A1BE3AB1500D492CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BCB4391BE3AB1500D492CD /* ResignFirstReponder.app */,
+				40BCB4521BE3AB1600D492CD /* ResignFirstReponderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BCB43B1BE3AB1500D492CD /* ResignFirstReponder */ = {
+			isa = PBXGroup;
+			children = (
+				40BCB4401BE3AB1500D492CD /* AppDelegate.h */,
+				40BCB4411BE3AB1500D492CD /* AppDelegate.m */,
+				40BCB4431BE3AB1500D492CD /* ViewController.h */,
+				40BCB4441BE3AB1500D492CD /* ViewController.m */,
+				40BCB4461BE3AB1500D492CD /* Main.storyboard */,
+				40BCB4491BE3AB1500D492CD /* Images.xcassets */,
+				40BCB44B1BE3AB1500D492CD /* LaunchScreen.xib */,
+				40BCB43C1BE3AB1500D492CD /* Supporting Files */,
+			);
+			path = ResignFirstReponder;
+			sourceTree = "<group>";
+		};
+		40BCB43C1BE3AB1500D492CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BCB43D1BE3AB1500D492CD /* Info.plist */,
+				40BCB43E1BE3AB1500D492CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BCB4551BE3AB1600D492CD /* ResignFirstReponderTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BCB4581BE3AB1600D492CD /* ResignFirstReponderTests.m */,
+				40BCB4561BE3AB1600D492CD /* Supporting Files */,
+			);
+			path = ResignFirstReponderTests;
+			sourceTree = "<group>";
+		};
+		40BCB4561BE3AB1600D492CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BCB4571BE3AB1600D492CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BCB4381BE3AB1500D492CD /* ResignFirstReponder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BCB45C1BE3AB1600D492CD /* Build configuration list for PBXNativeTarget "ResignFirstReponder" */;
+			buildPhases = (
+				40BCB4351BE3AB1500D492CD /* Sources */,
+				40BCB4361BE3AB1500D492CD /* Frameworks */,
+				40BCB4371BE3AB1500D492CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResignFirstReponder;
+			productName = ResignFirstReponder;
+			productReference = 40BCB4391BE3AB1500D492CD /* ResignFirstReponder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BCB4511BE3AB1600D492CD /* ResignFirstReponderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BCB45F1BE3AB1600D492CD /* Build configuration list for PBXNativeTarget "ResignFirstReponderTests" */;
+			buildPhases = (
+				40BCB44E1BE3AB1600D492CD /* Sources */,
+				40BCB44F1BE3AB1600D492CD /* Frameworks */,
+				40BCB4501BE3AB1600D492CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BCB4541BE3AB1600D492CD /* PBXTargetDependency */,
+			);
+			name = ResignFirstReponderTests;
+			productName = ResignFirstReponderTests;
+			productReference = 40BCB4521BE3AB1600D492CD /* ResignFirstReponderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BCB4311BE3AB1500D492CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Bodacious IT Hub";
+				TargetAttributes = {
+					40BCB4381BE3AB1500D492CD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BCB4511BE3AB1600D492CD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 40BCB4381BE3AB1500D492CD;
+					};
+				};
+			};
+			buildConfigurationList = 40BCB4341BE3AB1500D492CD /* Build configuration list for PBXProject "ResignFirstReponder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BCB4301BE3AB1500D492CD;
+			productRefGroup = 40BCB43A1BE3AB1500D492CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BCB4381BE3AB1500D492CD /* ResignFirstReponder */,
+				40BCB4511BE3AB1600D492CD /* ResignFirstReponderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BCB4371BE3AB1500D492CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCB4481BE3AB1500D492CD /* Main.storyboard in Resources */,
+				40BCB44D1BE3AB1500D492CD /* LaunchScreen.xib in Resources */,
+				40BCB44A1BE3AB1500D492CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BCB4501BE3AB1600D492CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BCB4351BE3AB1500D492CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCB4451BE3AB1500D492CD /* ViewController.m in Sources */,
+				40BCB4421BE3AB1500D492CD /* AppDelegate.m in Sources */,
+				40BCB43F1BE3AB1500D492CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BCB44E1BE3AB1600D492CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCB4591BE3AB1600D492CD /* ResignFirstReponderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BCB4541BE3AB1600D492CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BCB4381BE3AB1500D492CD /* ResignFirstReponder */;
+			targetProxy = 40BCB4531BE3AB1600D492CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BCB4461BE3AB1500D492CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BCB4471BE3AB1500D492CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BCB44B1BE3AB1500D492CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BCB44C1BE3AB1500D492CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BCB45A1BE3AB1600D492CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40BCB45B1BE3AB1600D492CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BCB45D1BE3AB1600D492CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResignFirstReponder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40BCB45E1BE3AB1600D492CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResignFirstReponder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		40BCB4601BE3AB1600D492CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ResignFirstReponderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResignFirstReponder.app/ResignFirstReponder";
+			};
+			name = Debug;
+		};
+		40BCB4611BE3AB1600D492CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ResignFirstReponderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResignFirstReponder.app/ResignFirstReponder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BCB4341BE3AB1500D492CD /* Build configuration list for PBXProject "ResignFirstReponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCB45A1BE3AB1600D492CD /* Debug */,
+				40BCB45B1BE3AB1600D492CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BCB45C1BE3AB1600D492CD /* Build configuration list for PBXNativeTarget "ResignFirstReponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCB45D1BE3AB1600D492CD /* Debug */,
+				40BCB45E1BE3AB1600D492CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BCB45F1BE3AB1600D492CD /* Build configuration list for PBXNativeTarget "ResignFirstReponderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCB4601BE3AB1600D492CD /* Debug */,
+				40BCB4611BE3AB1600D492CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BCB4311BE3AB1500D492CD /* Project object */;
+}
