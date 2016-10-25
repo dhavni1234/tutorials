@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB728D291DBDEDEF0030564C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB728D281DBDEDEF0030564C /* main.m */; };
+		CB728D2C1DBDEDEF0030564C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB728D2B1DBDEDEF0030564C /* AppDelegate.m */; };
+		CB728D2F1DBDEDEF0030564C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB728D2E1DBDEDEF0030564C /* ViewController.m */; };
+		CB728D321DBDEDEF0030564C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB728D301DBDEDEF0030564C /* Main.storyboard */; };
+		CB728D341DBDEDEF0030564C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB728D331DBDEDEF0030564C /* Assets.xcassets */; };
+		CB728D371DBDEDEF0030564C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB728D351DBDEDEF0030564C /* LaunchScreen.storyboard */; };
+		CB728D401DBDEE590030564C /* CCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CB728D3F1DBDEE590030564C /* CCTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB728D241DBDEDEE0030564C /* ccTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB728D281DBDEDEF0030564C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB728D2A1DBDEDEF0030564C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB728D2B1DBDEDEF0030564C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB728D2D1DBDEDEF0030564C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB728D2E1DBDEDEF0030564C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB728D311DBDEDEF0030564C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB728D331DBDEDEF0030564C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB728D361DBDEDEF0030564C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB728D381DBDEDEF0030564C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB728D3E1DBDEE590030564C /* CCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTextField.h; sourceTree = "<group>"; };
+		CB728D3F1DBDEE590030564C /* CCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB728D211DBDEDEE0030564C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB728D1B1DBDEDEE0030564C = {
+			isa = PBXGroup;
+			children = (
+				CB728D261DBDEDEE0030564C /* ccTextField */,
+				CB728D251DBDEDEE0030564C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB728D251DBDEDEE0030564C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB728D241DBDEDEE0030564C /* ccTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB728D261DBDEDEE0030564C /* ccTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CB728D2A1DBDEDEF0030564C /* AppDelegate.h */,
+				CB728D2B1DBDEDEF0030564C /* AppDelegate.m */,
+				CB728D2D1DBDEDEF0030564C /* ViewController.h */,
+				CB728D2E1DBDEDEF0030564C /* ViewController.m */,
+				CB728D301DBDEDEF0030564C /* Main.storyboard */,
+				CB728D331DBDEDEF0030564C /* Assets.xcassets */,
+				CB728D351DBDEDEF0030564C /* LaunchScreen.storyboard */,
+				CB728D381DBDEDEF0030564C /* Info.plist */,
+				CB728D271DBDEDEF0030564C /* Supporting Files */,
+				CB728D3E1DBDEE590030564C /* CCTextField.h */,
+				CB728D3F1DBDEE590030564C /* CCTextField.m */,
+			);
+			path = ccTextField;
+			sourceTree = "<group>";
+		};
+		CB728D271DBDEDEF0030564C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB728D281DBDEDEF0030564C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB728D231DBDEDEE0030564C /* ccTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB728D3B1DBDEDEF0030564C /* Build configuration list for PBXNativeTarget "ccTextField" */;
+			buildPhases = (
+				CB728D201DBDEDEE0030564C /* Sources */,
+				CB728D211DBDEDEE0030564C /* Frameworks */,
+				CB728D221DBDEDEE0030564C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ccTextField;
+			productName = ccTextField;
+			productReference = CB728D241DBDEDEE0030564C /* ccTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB728D1C1DBDEDEE0030564C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = XtreemSolution;
+				TargetAttributes = {
+					CB728D231DBDEDEE0030564C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB728D1F1DBDEDEE0030564C /* Build configuration list for PBXProject "ccTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB728D1B1DBDEDEE0030564C;
+			productRefGroup = CB728D251DBDEDEE0030564C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB728D231DBDEDEE0030564C /* ccTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB728D221DBDEDEE0030564C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB728D371DBDEDEF0030564C /* LaunchScreen.storyboard in Resources */,
+				CB728D341DBDEDEF0030564C /* Assets.xcassets in Resources */,
+				CB728D321DBDEDEF0030564C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB728D201DBDEDEE0030564C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB728D2F1DBDEDEF0030564C /* ViewController.m in Sources */,
+				CB728D2C1DBDEDEF0030564C /* AppDelegate.m in Sources */,
+				CB728D291DBDEDEF0030564C /* main.m in Sources */,
+				CB728D401DBDEE590030564C /* CCTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB728D301DBDEDEF0030564C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB728D311DBDEDEF0030564C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB728D351DBDEDEF0030564C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB728D361DBDEDEF0030564C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB728D391DBDEDEF0030564C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB728D3A1DBDEDEF0030564C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB728D3C1DBDEDEF0030564C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ccTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtreem.ccTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB728D3D1DBDEDEF0030564C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ccTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtreem.ccTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB728D1F1DBDEDEE0030564C /* Build configuration list for PBXProject "ccTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB728D391DBDEDEF0030564C /* Debug */,
+				CB728D3A1DBDEDEF0030564C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB728D3B1DBDEDEF0030564C /* Build configuration list for PBXNativeTarget "ccTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB728D3C1DBDEDEF0030564C /* Debug */,
+				CB728D3D1DBDEDEF0030564C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB728D1C1DBDEDEE0030564C /* Project object */;
+}
