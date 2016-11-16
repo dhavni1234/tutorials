@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SOH-bw-jqo">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7oe-Ih-y18">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Gender" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jf-42-MTm">
+                                        <frame key="frameInset" minX="20" minY="45" width="199" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo2-sI-YCH">
+                                        <frame key="frameInset" minX="183" minY="49" width="31" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <connections>
+                                            <action selector="btnDropDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iic-47-CgQ"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caY-ZX-gLA">
+                                        <frame key="frameInset" minX="20" minY="82" width="199" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD1-Mi-Blq">
+                                                <frame key="frameInset" width="199" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Male"/>
+                                                <connections>
+                                                    <action selector="btnMale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azN-Sh-45j"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fye-e3-r0Z">
+                                                <frame key="frameInset" minY="76" width="199" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Transgender"/>
+                                                <connections>
+                                                    <action selector="btnTransgender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h0i-az-sSi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnJ-IO-FuF">
+                                                <frame key="frameInset" minY="38" width="199" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Female"/>
+                                                <connections>
+                                                    <action selector="btnFemale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhf-7Q-pmZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="TkZ-9c-37X"/>
+                                    <constraint firstAttribute="width" constant="240" id="V9M-OD-aUt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7oe-Ih-y18" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9N4-gr-dwF"/>
+                            <constraint firstItem="7oe-Ih-y18" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lPd-Bu-0Hi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDropDownOutlet" destination="Qo2-sI-YCH" id="weN-Vc-r63"/>
+                        <outlet property="btnFemaleOutlet" destination="KnJ-IO-FuF" id="Qnk-vs-Psf"/>
+                        <outlet property="btnMaleOutlet" destination="OD1-Mi-Blq" id="fsi-gT-C1R"/>
+                        <outlet property="btnTransgenderOutlet" destination="fye-e3-r0Z" id="rER-1h-wz2"/>
+                        <outlet property="dropView" destination="caY-ZX-gLA" id="7Bz-oV-ghW"/>
+                        <outlet property="lbl" destination="4Jf-42-MTm" id="pH3-Fd-Um6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
+        </scene>
+        <!--Picker View Controller-->
+        <scene sceneID="9pK-ra-ogh">
+            <objects>
+                <viewController id="SOH-bw-jqo" customClass="PickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uyb-fr-QOb"/>
+                        <viewControllerLayoutGuide type="bottom" id="UTF-3O-opf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pOh-n3-HQt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Sex" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RHa-PS-61f">
+                                <frame key="frameInset" minX="111" minY="90" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldGenderAction:" destination="SOH-bw-jqo" eventType="editingDidEnd" id="IcX-yI-70t"/>
+                                    <outlet property="delegate" destination="SOH-bw-jqo" id="ACg-nE-Yp1"/>
+                                </connections>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdr-D8-ezP">
+                                <connections>
+                                    <outlet property="dataSource" destination="SOH-bw-jqo" id="42L-e8-bib"/>
+                                    <outlet property="delegate" destination="SOH-bw-jqo" id="xGX-kv-dZX"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyi-mo-By1">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="g9x-Vb-9Mx"/>
+                                    <constraint firstAttribute="width" constant="37" id="mFf-eb-pJC"/>
+                                </constraints>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="btnDone:" destination="SOH-bw-jqo" eventType="touchUpInside" id="2kU-F8-kOX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrK-rW-wpY">
+                                <frame key="frameInset" minX="16" minY="90" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ro-X8-Dyv">
+                                <frame key="frameInset" minX="16" minY="144" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select City" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cl4-Sa-HfM">
+                                <frame key="frameInset" minX="111" minY="144" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldCityAction:" destination="SOH-bw-jqo" eventType="editingDidEnd" id="T7d-Fn-4Np"/>
+                                    <outlet property="delegate" destination="SOH-bw-jqo" id="aBO-AT-VOV"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAd-cS-sWf">
+                                <frame key="frameInset" minX="16" minY="206" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select State" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-wI-Dp1">
+                                <frame key="frameInset" minX="111" minY="201" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldStateAction:" destination="SOH-bw-jqo" eventType="editingDidEnd" id="BFb-fh-tYF"/>
+                                    <outlet property="delegate" destination="SOH-bw-jqo" id="MsZ-8u-gg0"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuW-kv-mz5">
+                                <frame key="frameInset" minX="16" minY="254" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Country" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="462-Ek-df2">
+                                <frame key="frameInset" minX="111" minY="249" width="152" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="SOH-bw-jqo" id="BiZ-bF-rrL"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UTF-3O-opf" firstAttribute="top" secondItem="Cyi-mo-By1" secondAttribute="bottom" constant="93" id="Ud6-rd-kDf"/>
+                            <constraint firstItem="zdr-D8-ezP" firstAttribute="leading" secondItem="pOh-n3-HQt" secondAttribute="leading" id="VK9-pg-YMh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cyi-mo-By1" secondAttribute="trailing" constant="4" id="Y4r-ov-QaX"/>
+                            <constraint firstAttribute="trailing" secondItem="zdr-D8-ezP" secondAttribute="trailing" id="oUb-Ij-6Zy"/>
+                            <constraint firstItem="UTF-3O-opf" firstAttribute="top" secondItem="zdr-D8-ezP" secondAttribute="bottom" id="oo1-QD-aFB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDoneOutlet" destination="Cyi-mo-By1" id="ct1-lT-G9I"/>
+                        <outlet property="pickerView" destination="zdr-D8-ezP" id="OOF-kW-xBe"/>
+                        <outlet property="textFieldCityOutlet" destination="Cl4-Sa-HfM" id="k9x-4I-vZI"/>
+                        <outlet property="textFieldCountryOutlet" destination="462-Ek-df2" id="Y78-7V-do9"/>
+                        <outlet property="textFieldGenderOutlet" destination="RHa-PS-61f" id="ym6-Fu-xLO"/>
+                        <outlet property="textFieldStateOutlet" destination="bbf-wI-Dp1" id="f3h-6q-oIy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0g-XR-qn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="119.1904047976012"/>
+        </scene>
+    </scenes>
+</document>
